@@ -30,7 +30,7 @@ water_ml = user_weight * WATER_PER_KG
 # Расчет воды в л
 water_l = round((water_ml / ML_IN_L), 1)
 
-print(f'Отчет для пользователя: {str(user_name)} ({str(user_age)} г.)')
+print(f'Отчет для пользователя: {user_name} ({user_age} г.)')
 print(f'Твой Индекс Массы Тела: {bmi}')
 print(f'Рекомендуемая норма воды: {water_l} л. в день')
 print()
